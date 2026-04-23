@@ -55,8 +55,6 @@ vault/
 - Claude 读转换后的 md，按 [[WIKI]] schema 生成 `知识库/来源/`、`知识库/实体/`、`知识库/概念/` 页面
 - **原件不可修改**；转换后的 md 是来源摘要的引用目标，也不要动
 
-详见 [[Ingest 流水线]] 和 [[MarkItDown]]。
-
 ### Query（查询）
 提问 — Claude 先读 `知识库/hot.md` → `知识库/index.md` → 相关页面（3-5 个），综合回答并引用 wikilinks。
 
