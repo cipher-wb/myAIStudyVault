@@ -14,6 +14,25 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
+## [2026-04-23] ingest | 学习笔记（Git 与工具篇）— 首次正式 ingest
+- Operation: 首次正式 ingest（之前的内容均为测试）
+- Source: [[学习笔记（Git 与工具篇）]]（来自【熠辉】Vibe Coding 实战课笔记，微信文档剪藏）
+- Pages created (11):
+  - 来源：[[学习笔记（Git 与工具篇）]]
+  - 实体：[[Git]], [[GitHub]], [[VS Code]], [[shadcn/ui]], [[Vercel]], [[GitLens]], [[Local Images Plus]]
+  - 概念：[[Git 版本控制]], [[Vibe Coding 工具链]]
+- Pages updated: [[index]], [[hot]]
+- Images: 4 张概念图下载到 `_附件/ingest/`（Git/GitHub/Next.js 概念图）
+- Key insights:
+  - Git 是 AI 编程的后悔药，四区域模型（工作区→暂存区→本地仓库→远程仓库）
+  - VS Code + Claude Code ≈ Cursor，课程确认可替代
+  - [[shadcn/ui]] 既当开发组件库又当设计参考
+  - [[Vercel]] 免费部署全栈项目，新手无需购买服务器
+  - [[Local Images Plus]] 配合 Web Clipper 可本地化图片（用户待安装）
+- Pipeline: 微信文档 → 手动剪藏到 `.源文档/文字稿/` → Claude 读取消化 → wiki 页面
+
+---
+
 ## [2026-04-23] rename | 源文档 → .源文档（恢复隐藏前缀）
 - Operation: 把 `源文档/` 改回 `.源文档/`，使其在 Obsidian 文件树中不可见
 - Reason: 用户偏好干净的文件树视图，不希望源文档目录出现在主界面
