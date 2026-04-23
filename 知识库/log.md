@@ -14,6 +14,25 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
+## [2026-04-23] ingest | 学习笔记（Next.js 全栈开发篇）— 第二次 ingest
+- Operation: 第二次正式 ingest，覆盖 Next.js 全栈开发知识
+- Source: [[学习笔记（Next.js 全栈开发篇）]]（Vibe Coding 实战课笔记后半部分）
+- Pages created (7):
+  - 来源：[[学习笔记（Next.js 全栈开发篇）]]
+  - 实体：[[Next.js]], [[React]], [[Tailwind CSS]]
+  - 概念：[[Next.js 项目结构]], [[React 组件]], [[Next.js API Routes]]
+- Pages updated: [[index]], [[hot]]
+- Images: 2 张新增概念图下载到 `_附件/ingest/`（React + Next.js 生态）
+- Key insights:
+  - Next.js = React 全框架，React 是引擎 Next.js 是完整汽车
+  - 文件系统路由：目录结构 = URL 结构，零配置
+  - 服务端组件（默认）vs 客户端组件（`'use client'`）是现代 Next.js 的核心区分
+  - API Routes 让 Next.js 成为真正的全栈框架，前端后端同一项目同一语言
+  - Vercel 免费部署，新手零成本上线
+- Milestone: Vibe Coding 课程笔记全部 ingest 完成，知识库从 0 增长到 18 页。
+
+---
+
 ## [2026-04-23] ingest | 学习笔记（Git 与工具篇）— 首次正式 ingest
 - Operation: 首次正式 ingest（之前的内容均为测试）
 - Source: [[学习笔记（Git 与工具篇）]]（来自【熠辉】Vibe Coding 实战课笔记，微信文档剪藏）
