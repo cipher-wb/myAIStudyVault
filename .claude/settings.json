@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(E:\\\\AI\\\\obisidian\\\\AI学习\\\\.claude\\\\scripts\\\\md转换.py)",
+      "Write(E:\\\\AI\\\\obisidian\\\\AI学习\\\\.claude\\\\commands\\\\ingest.md)"
+    ]
+  }
+}

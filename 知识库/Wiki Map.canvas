@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"idx","type":"file","file":"知识库/index.md","x":0,"y":0,"width":300,"height":150,"color":"5"},
+		{"id":"hot","type":"file","file":"知识库/hot.md","x":350,"y":0,"width":300,"height":150,"color":"1"},
+		{"id":"log","type":"file","file":"知识库/log.md","x":0,"y":200,"width":300,"height":150,"color":"5"},
+		{"id":"gs","type":"file","file":"知识库/getting-started.md","x":-350,"y":200,"width":300,"height":150,"color":"3"},
+		{"id":"ci","type":"file","file":"知识库/概念/_index.md","x":-175,"y":400,"width":280,"height":120,"color":"3"},
+		{"id":"ei","type":"file","file":"知识库/实体/_index.md","x":175,"y":400,"width":280,"height":120,"color":"6"},
+		{"id":"dash","type":"file","file":"知识库/元数据/dashboard.md","x":350,"y":200,"width":300,"height":150,"color":"5"},
+		{"id":"si","type":"file","file":"知识库/来源/_index.md","x":0,"y":780,"width":280,"height":120,"color":"2"},
+		{"id":"ovr","type":"file","file":"知识库/overview.md","x":-350,"y":-60,"width":300,"height":150,"color":"5"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"idx","fromSide":"left","toNode":"ovr","toSide":"right"},
+		{"id":"e2","fromNode":"idx","fromSide":"right","toNode":"hot","toSide":"left"},
+		{"id":"e3","fromNode":"idx","fromSide":"bottom","toNode":"log","toSide":"top"},
+		{"id":"e4","fromNode":"idx","fromSide":"bottom","toNode":"ci","toSide":"top"},
+		{"id":"e5","fromNode":"idx","fromSide":"bottom","toNode":"ei","toSide":"top"},
+		{"id":"e6","fromNode":"ci","fromSide":"bottom","toNode":"si","toSide":"top"},
+		{"id":"e7","fromNode":"ei","fromSide":"bottom","toNode":"si","toSide":"top"},
+		{"id":"e8","fromNode":"ovr","fromSide":"bottom","toNode":"gs","toSide":"top"},
+		{"id":"e9","fromNode":"log","fromSide":"right","toNode":"dash","toSide":"left"}
+	]
+}
