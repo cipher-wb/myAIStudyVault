@@ -14,6 +14,16 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
+## [2026-04-23] rename | 去掉源文档的点前缀（`.源文档` → `源文档`）
+- Operation: 解除 Obsidian 对 `.` 前缀路径的外部写入限制
+- Reason: Obsidian 禁止通过 `obsidian://` URI 写入 `.` 开头文件夹，导致 Web Clipper 等外部工具无法落地文件
+- Files updated: 11 个 —— CLAUDE.md / WIKI.md / 4 个 知识库/*.md / 2 个 知识库/{实体,概念}/ 页 / 2 个 .claude/ 配置 / 1 个 .obsidian/snippets/vault-colors.css
+- Folder renamed: `.源文档/` → `源文档/`（含 6 个子目录：原始/文章/文字稿/截图/数据/素材）
+- Side effect: 文件夹现在在 Obsidian 文件树中可见（这反而方便手动查看剪藏落地结果）
+- Key insight: dot-prefix 目录有"永不让用户触碰"的语义，但我们需要往里写东西，二者冲突 → 舍弃隐藏性。
+
+---
+
 ## [2026-04-23] integrate | 接入 MarkItDown 转换层
 - Operation: 集成 [microsoft/markitdown](https://github.com/microsoft/markitdown) 作为 ingest 流水线的预处理器
 - Pages created: [[MarkItDown]], [[Ingest 流水线]]
