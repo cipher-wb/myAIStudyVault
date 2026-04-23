@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-md转换.py  —  将 .源文档/原始/ 中的任意文件转为 Markdown，
-             按扩展名自动分流到 .源文档/{文章|文字稿|截图|数据}/。
+md转换.py  —  将 源文档/原始/ 中的任意文件转为 Markdown，
+             按扩展名自动分流到 源文档/{文章|文字稿|截图|数据}/。
 
 用法：
     python .claude/scripts/md转换.py <文件路径-或-URL> [--force]
@@ -41,7 +41,7 @@ EXT_ROUTES = {
 }
 
 VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
-SRC_ROOT = VAULT_ROOT / ".源文档"
+SRC_ROOT = VAULT_ROOT / "源文档"
 RAW_DIR = SRC_ROOT / "原始"
 
 
@@ -133,7 +133,7 @@ def process_one(src: str, force: bool, only_print: bool) -> bool:
 def main():
     ap = argparse.ArgumentParser(description="将原始文件/URL 转换为 Obsidian vault 中的 markdown")
     ap.add_argument("target", nargs="?", help="文件路径或 URL")
-    ap.add_argument("--all", action="store_true", help="批量处理 .源文档/原始/ 下全部文件")
+    ap.add_argument("--all", action="store_true", help="批量处理 源文档/原始/ 下全部文件")
     ap.add_argument("--force", action="store_true", help="目标已存在时覆盖")
     ap.add_argument("--print", dest="only_print", action="store_true", help="仅打印目标路径")
     args = ap.parse_args()

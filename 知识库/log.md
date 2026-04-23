@@ -21,14 +21,14 @@ Append-only operation log. Newest entries at the top.
 - Files added:
   - `.claude/scripts/md转换.py` — 按扩展名自动分流的批量转换脚本
   - `.claude/commands/ingest.md` — `/ingest` slash 命令封装
-  - `.源文档/原始/` — 原件投递目录
+  - `源文档/原始/` — 原件投递目录
 - Install: `pip install 'markitdown[all]'` on Python 3.12 and 3.14（version 0.1.5）
 - Key insight: **原件永远不进 wiki**，wiki 只消费转换后的 markdown。markitdown 把文档统一成 LLM 友好的 md，让 wiki 构建与源格式解耦。
 
 ---
 
 ## [2026-04-23] rename | vault 文件夹全面中文化
-- Operation: 把所有英文文件夹名改为中文（`.raw` → `.源文档`、`wiki` → `知识库` 等 14 个文件夹）
+- Operation: 把所有英文文件夹名改为中文（`.raw` → `源文档`、`wiki` → `知识库` 等 14 个文件夹）
 - Pages updated: [[CLAUDE]], [[WIKI]], [[Wiki Map.canvas]], [[元数据/dashboard]]（Dataview 查询路径）, [[overview]], [[getting-started]], [[index]], [[hot]], [[log]]
 - Config updated: `.obsidian/app.json`（attachmentFolderPath）、`.obsidian/graph.json`、`.obsidian/snippets/vault-colors.css`
 - Key insight: 保留所有 `.md` 文件名不动，让形如 `[[index]]` 的短 wikilink 无需改动；只更新**带路径的** wikilinks（`[[概念/_index]]` 等）。

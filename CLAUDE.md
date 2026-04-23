@@ -9,7 +9,7 @@ Created: 2026-04-23
 
 ```
 vault/
-├── .源文档/           # 源文档（不可变，只读）
+├── 源文档/           # 源文档（不可变，只读）
 │   ├── 文章/
 │   ├── 文字稿/
 │   ├── 截图/
@@ -38,18 +38,18 @@ vault/
 
 - 所有笔记使用 YAML frontmatter：type, status, created, updated, tags（最低要求）
 - Wikilinks 使用 [[Note Name]] 格式 — 文件名唯一，无需路径
-- .源文档/ 包含源文档 — 永远不要修改它们
+- 源文档/ 包含源文档 — 永远不要修改它们
 - 知识库/index.md 是主目录 — 每次 ingest 后更新
 - 知识库/log.md 是追加式的 — 新条目放在顶部，不要编辑过去的条目
 
 ## Operations
 
 ### Ingest（摄取源文档）
-**流水线**：原件丢 `.源文档/原始/` → `markitdown` 自动转 md → `/ingest` 命令提炼为 wiki 页面。
+**流水线**：原件丢 `源文档/原始/` → `markitdown` 自动转 md → `/ingest` 命令提炼为 wiki 页面。
 
-- **任何格式**（PDF/DOCX/PPTX/XLSX/MSG/EPUB/HTML/图片/音频/YouTube URL/ZIP …）丢到 `.源文档/原始/`
+- **任何格式**（PDF/DOCX/PPTX/XLSX/MSG/EPUB/HTML/图片/音频/YouTube URL/ZIP …）丢到 `源文档/原始/`
 - 跑 `python .claude/scripts/md转换.py --all` 或 `python .claude/scripts/md转换.py <单个文件>`
-  - 脚本按扩展名自动分流到 `.源文档/{文章|文字稿|截图|数据}/<stem>.md`
+  - 脚本按扩展名自动分流到 `源文档/{文章|文字稿|截图|数据}/<stem>.md`
   - **Windows 下必须用 `-o` 写文件**（markitdown stdout 是 UTF-8，直接 `>` 会被 cmd GBK 吃掉）
 - 用户说 `/ingest <文件>` 或直接说 "ingest [文件名]"
 - Claude 读转换后的 md，按 [[WIKI]] schema 生成 `知识库/来源/`、`知识库/实体/`、`知识库/概念/` 页面

@@ -4,8 +4,8 @@
   "title": "Rename vault folders to Chinese preserving links",
   "titleGenerationStatus": "success",
   "createdAt": 1776904968833,
-  "updatedAt": 1776906861111,
-  "lastResponseAt": 1776906861111,
+  "updatedAt": 1776909660621,
+  "lastResponseAt": 1776909660621,
   "sessionId": "bd834e60-f0b7-42b7-a95a-3187cad5d782",
   "providerState": {
     "providerSessionId": "bd834e60-f0b7-42b7-a95a-3187cad5d782",
@@ -57,10 +57,11 @@
   "usage": {
     "model": "opus[1m]",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 1821,
-    "cacheReadInputTokens": 74671,
+    "cacheCreationInputTokens": 586,
+    "cacheReadInputTokens": 166108,
     "contextWindow": 1000000,
-    "contextTokens": 76493,
-    "percentage": 8
+    "contextTokens": 166695,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
   }
 }

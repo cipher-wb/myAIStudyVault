@@ -17,7 +17,7 @@ Wiki 是产品，对话只是接口。
 
 ```
 vault/
-├── .源文档/                # Layer 1: 不可变源文档
+├── 源文档/                # Layer 1: 不可变源文档
 │   ├── 文章/
 │   ├── 文字稿/
 │   ├── 截图/
@@ -49,7 +49,7 @@ vault/
 
 ### Rules
 
-- `.源文档/` 是只读的。永远不要修改源文件。
+- `源文档/` 是只读的。永远不要修改源文件。
 - `知识库/` 是你的。自由创建、更新、重命名、删除。
 - 每个 wiki 页面都有 frontmatter。无例外。
 - 使用 Wikilinks 而非路径。用 `[[Page Name]]` 而非 `[text](path/to/file.md)`。
@@ -77,7 +77,7 @@ status: <seed|developing|mature|evergreen>
 related:
   - "[[Other Page]]"
 sources:
-  - "[[.源文档/文章/source-file.md]]"
+  - "[[源文档/文章/source-file.md]]"
 ---
 ```
 

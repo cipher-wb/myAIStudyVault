@@ -21,14 +21,14 @@ related:
 
 ## Architecture
 
-- **`.源文档/`** — 原始源文档（只读，不可修改）
+- **`源文档/`** — 原始源文档（只读，不可修改）
 - **`知识库/`** — Claude 生成的知识库（可自由创建和更新）
 - **`_模板/`** — Templater 模板
 - **`_附件/`** — 图片和 PDF 附件
 
 ## How to Use
 
-1. **Ingest**: 将源文件放入 `.源文档/`，告诉 Claude "ingest [文件名]"
+1. **Ingest**: 将源文件放入 `源文档/`，告诉 Claude "ingest [文件名]"
 2. **Query**: 提问，Claude 会先读取索引再深入相关页面
 3. **Lint**: 定期说 "lint the wiki" 进行健康检查
 
