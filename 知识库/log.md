@@ -14,6 +14,15 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
+## [2026-04-23] rename | 源文档 → .源文档（恢复隐藏前缀）
+- Operation: 把 `源文档/` 改回 `.源文档/`，使其在 Obsidian 文件树中不可见
+- Reason: 用户偏好干净的文件树视图，不希望源文档目录出现在主界面
+- Trade-off: Web Clipper 等 `obsidian://` URI 外部工具将无法写入 `.源文档/`（Obsidian 安全策略），需通过文件管理器拖入或命令行 ingest
+- Files updated: 8 个文件的路径引用（CLAUDE.md / WIKI.md / overview.md / getting-started.md / hot.md / ingest.md / md转换.py / vault-colors.css）
+- Folder renamed: `源文档/` → `.源文档/`（含 6 个子目录不变）
+
+---
+
 ## [2026-04-23] reset | 清空测试内容，回到纯净基础设施状态
 - Operation: 删除所有测试 ingest 的来源/实体/概念页面 + 清空 `源文档/文章/` 下的剪藏样本
 - Deleted (源文档/文章/): Claude Managed Agents 概览 / 开始使用 Claude Managed Agents / 定义你的代理 / 工具 / 在 Console 中进行原型设计 / What is the Model Context Protocol (MCP)
