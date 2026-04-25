@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777085286569-lpofbixb4",
+  "providerId": "claude",
+  "title": "对源文档执行摄取操作",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777085286569,
+  "updatedAt": 1777086830600,
+  "lastResponseAt": 1777086830600,
+  "sessionId": "01669ccc-24e2-4744-8609-d93960aa8f44",
+  "providerState": {
+    "providerSessionId": "01669ccc-24e2-4744-8609-d93960aa8f44"
+  },
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

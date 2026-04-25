@@ -20,7 +20,7 @@ status: evergreen
 
 ## Transcripts
 
--
+- [[学习笔记20260424]] — OpenClaw 备忘单 / API 代充 / GPT-Image-2 待学习
 
 ## Other
 

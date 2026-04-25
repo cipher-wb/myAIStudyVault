@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Log"
-updated: 2026-04-23
+updated: 2026-04-25
 tags:
   - meta
   - log
@@ -11,6 +11,23 @@ status: evergreen
 # Wiki Log
 
 Append-only operation log. Newest entries at the top.
+
+---
+
+## [2026-04-25] ingest | 学习笔记20260424 — 第三次 ingest
+- Operation: 第三次 ingest，覆盖 OpenClaw / API 代充 / GPT-Image-2
+- Source: [[学习笔记20260424]]（日常学习笔记）
+- Pages created (6):
+  - 来源：[[学习笔记20260424]]
+  - 实体：[[OpenClaw]], [[Bewildcard]], [[GPT-Image-2]]
+  - 概念：[[OpenClaw 命令速查]], [[API 代充与跨境支付]]
+- Pages updated: [[index]], [[hot]], [[overview]], [[来源/_index]], [[实体/_index]], [[概念/_index]]
+- Key insights:
+  - [[OpenClaw]] 是 Bot 网关管理工具，CLI + Web Dashboard 双模式管理
+  - [[Bewildcard]] 解决中国用户 API 信用卡充值问题，已成功用于 [[GPT-Image-2]]
+  - `gptsapi-image-generator` skill 已创建，可调用 GPT-Image-2 进行图像生成
+- Open threads: GPT-Image-2 API 详细学习、skill 稳定性优化待后续补充
+- Milestone: 知识库从 18 页增长至 24 页。
 
 ---
 
