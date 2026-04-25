@@ -18,7 +18,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-25 | Total pages: 24 | Sources ingested: 3
+Last updated: 2026-04-25 | Total pages: 22 | Sources ingested: 1
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[getting-started]]
 
@@ -57,12 +57,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[getting-started]]
 
 ## Sources
 
-### 课程笔记
-- [[学习笔记（Git 与工具篇）]] — 熠辉 Vibe Coding 实战课（Git + 工具）
-- [[学习笔记（Next.js 全栈开发篇）]] — 熠辉 Vibe Coding 实战课（Next.js 全栈）
-
-### 日常笔记
-- [[学习笔记20260424]] — OpenClaw 备忘单 / API 代充 / GPT-Image-2 待学习
+- [[学习笔记]] — Vibe Coding 实战课 + 日常补充（Git / Next.js / OpenClaw / API 服务）
 
 ---
 

@@ -17,13 +17,13 @@ aliases:
 related:
   - "[[OpenClaw]]"
 sources:
-  - "[[学习笔记20260424]]"
+  - "[[学习笔记]]"
 ---
 
 # OpenClaw 命令速查
 
 > 快速参考：[[OpenClaw]] 网关管理的常用命令。
-> (Source: [[学习笔记20260424]])
+> (Source: [[学习笔记]])
 
 ## 网关控制
 

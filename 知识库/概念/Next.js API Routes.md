@@ -18,7 +18,7 @@ related:
   - "[[Next.js]]"
   - "[[Next.js 项目结构]]"
 sources:
-  - "[[学习笔记（Next.js 全栈开发篇）]]"
+  - "[[学习笔记]]"
 ---
 
 # Next.js API Routes

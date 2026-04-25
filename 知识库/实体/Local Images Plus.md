@@ -11,7 +11,7 @@ status: seed
 related:
   - "[[Vibe Coding 工具链]]"
 sources:
-  - "[[学习笔记（Git 与工具篇）]]"
+  - "[[学习笔记]]"
 first_mentioned: 2026-04-23
 ---
 

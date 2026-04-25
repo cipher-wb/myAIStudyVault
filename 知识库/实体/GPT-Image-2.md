@@ -17,7 +17,7 @@ related:
   - "[[Bewildcard]]"
   - "[[gptsapi-image-generator Skill]]"
 sources:
-  - "[[学习笔记20260424]]"
+  - "[[学习笔记]]"
 ---
 
 # GPT-Image-2
@@ -38,4 +38,4 @@ sources:
 
 ## Related
 
-- (Source: [[学习笔记20260424]])
+- (Source: [[学习笔记]])

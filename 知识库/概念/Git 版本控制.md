@@ -19,7 +19,7 @@ related:
   - "[[GitHub]]"
   - "[[GitLens]]"
   - "[[VS Code]]"
-  - "[[学习笔记（Git 与工具篇）]]"
+  - "[[学习笔记]]"
 ---
 
 # Git 版本控制
@@ -134,4 +134,4 @@ GitHub SSH 密钥配置教程：https://www.bilibili.com/video/BV1dV411G77N
 
 - [[GitHub]] — 基于 Git 的云端托管平台
 - [[GitLens]] — VS Code Git 可视化增强插件
-- [[学习笔记（Git 与工具篇）]] — 来源笔记
+- [[学习笔记]] — 来源笔记

@@ -16,7 +16,7 @@ related:
   - "[[OpenClaw 命令速查]]"
   - "[[QQ Bot]]"
 sources:
-  - "[[学习笔记20260424]]"
+  - "[[学习笔记]]"
 ---
 
 # OpenClaw
@@ -34,4 +34,4 @@ sources:
 ## Related
 
 - 详见 [[OpenClaw 命令速查]] — 完整 CLI 命令参考
-- (Source: [[学习笔记20260424]])
+- (Source: [[学习笔记]])

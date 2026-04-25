@@ -18,7 +18,7 @@ related:
   - "[[Next.js]]"
   - "[[React 组件]]"
 sources:
-  - "[[学习笔记（Next.js 全栈开发篇）]]"
+  - "[[学习笔记]]"
 ---
 
 # Next.js 项目结构

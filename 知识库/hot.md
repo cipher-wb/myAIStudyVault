@@ -11,7 +11,7 @@ status: evergreen
 # Recent Context
 
 ## Last Updated
-2026-04-25 — 第三次 ingest 完成，知识库增长至 24 页
+2026-04-25 — 合并完成：3 个来源页 → 1 个 [[学习笔记]]；2 个源文件 → 1 个
 
 ## Key Recent Facts
 - **[[OpenClaw]]**：Bot 网关管理工具，支持 QQ Bot 等通道，CLI + Web Dashboard（`http://127.0.0.1:18789/`）
@@ -21,10 +21,10 @@ status: evergreen
 - **已有知识**：[[Git]] 版本控制 / [[Next.js]] 全栈开发 / [[Vibe Coding 工具链]]（来自前两次 ingest）
 
 ## Recent Changes
-- Ingested: [[学习笔记20260424]]（第三次 ingest）
+- Ingested: [[学习笔记]]（第三次 ingest）
 - Created (实体): [[OpenClaw]], [[Bewildcard]], [[GPT-Image-2]]
 - Created (概念): [[OpenClaw 命令速查]], [[API 代充与跨境支付]]
-- Created (来源): [[学习笔记20260424]]
+- Created (来源): [[学习笔记]]
 
 ## Active Threads
 - [[GPT-Image-2]] API 学习 — 待深入（prompt engineering、skill 构建、风格一致性）

@@ -20,7 +20,7 @@ related:
   - "[[Next.js]]"
   - "[[shadcn/ui]]"
 sources:
-  - "[[学习笔记（Next.js 全栈开发篇）]]"
+  - "[[学习笔记]]"
 ---
 
 # React 组件

@@ -14,11 +14,21 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
-## [2026-04-25] ingest | 学习笔记20260424 — 第三次 ingest
+## [2026-04-25] merge | 来源页合并（3 → 1）+ 源文件合并（2 → 1）
+- Operation: 合并分散的来源页面和源文件
+- 源文件侧：`.源文档/文字稿/学习笔记.md` + `学习笔记20260424.md` → 一个 `学习笔记.md`
+- Wiki 侧：`学习笔记（Git 与工具篇）` + `学习笔记（Next.js 全栈开发篇）` + `学习笔记20260424` → 一个 [[学习笔记]]
+- Pages deleted: 3（旧来源页）
+- Pages updated: 24（所有引用旧来源名的实体/概念/索引页）
+- Result: 知识库从 24 页精简至 22 页，来源更清晰
+
+---
+
+## [2026-04-25] ingest | 学习笔记 — 第三次 ingest
 - Operation: 第三次 ingest，覆盖 OpenClaw / API 代充 / GPT-Image-2
-- Source: [[学习笔记20260424]]（日常学习笔记）
+- Source: [[学习笔记]]（日常学习笔记）
 - Pages created (6):
-  - 来源：[[学习笔记20260424]]
+  - 来源：[[学习笔记]]
   - 实体：[[OpenClaw]], [[Bewildcard]], [[GPT-Image-2]]
   - 概念：[[OpenClaw 命令速查]], [[API 代充与跨境支付]]
 - Pages updated: [[index]], [[hot]], [[overview]], [[来源/_index]], [[实体/_index]], [[概念/_index]]
@@ -31,11 +41,11 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
-## [2026-04-23] ingest | 学习笔记（Next.js 全栈开发篇）— 第二次 ingest
+## [2026-04-23] ingest | 学习笔记— 第二次 ingest
 - Operation: 第二次正式 ingest，覆盖 Next.js 全栈开发知识
-- Source: [[学习笔记（Next.js 全栈开发篇）]]（Vibe Coding 实战课笔记后半部分）
+- Source: [[学习笔记]]（Vibe Coding 实战课笔记后半部分）
 - Pages created (7):
-  - 来源：[[学习笔记（Next.js 全栈开发篇）]]
+  - 来源：[[学习笔记]]
   - 实体：[[Next.js]], [[React]], [[Tailwind CSS]]
   - 概念：[[Next.js 项目结构]], [[React 组件]], [[Next.js API Routes]]
 - Pages updated: [[index]], [[hot]]
@@ -50,11 +60,11 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
-## [2026-04-23] ingest | 学习笔记（Git 与工具篇）— 首次正式 ingest
+## [2026-04-23] ingest | 学习笔记— 首次正式 ingest
 - Operation: 首次正式 ingest（之前的内容均为测试）
-- Source: [[学习笔记（Git 与工具篇）]]（来自【熠辉】Vibe Coding 实战课笔记，微信文档剪藏）
+- Source: [[学习笔记]]（来自【熠辉】Vibe Coding 实战课笔记，微信文档剪藏）
 - Pages created (11):
-  - 来源：[[学习笔记（Git 与工具篇）]]
+  - 来源：[[学习笔记]]
   - 实体：[[Git]], [[GitHub]], [[VS Code]], [[shadcn/ui]], [[Vercel]], [[GitLens]], [[Local Images Plus]]
   - 概念：[[Git 版本控制]], [[Vibe Coding 工具链]]
 - Pages updated: [[index]], [[hot]]

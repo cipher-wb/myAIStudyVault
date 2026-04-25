@@ -16,7 +16,7 @@ related:
   - "[[GPT-Image-2]]"
   - "[[API 代充与跨境支付]]"
 sources:
-  - "[[学习笔记20260424]]"
+  - "[[学习笔记]]"
 ---
 
 # Bewildcard
@@ -30,4 +30,4 @@ sources:
 
 ## Related
 
-- (Source: [[学习笔记20260424]])
+- (Source: [[学习笔记]])
