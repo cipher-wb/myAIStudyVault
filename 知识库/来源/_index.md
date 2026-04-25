@@ -21,6 +21,7 @@ status: evergreen
 ## Transcripts
 
 - [[学习笔记]] — Vibe Coding 实战课 + 日常补充（Git / Next.js / OpenClaw / API 服务）
+- [[瑞士银行充值流程]] — SafePal + OKX 充值瑞士银行卡
 
 ## Other
 

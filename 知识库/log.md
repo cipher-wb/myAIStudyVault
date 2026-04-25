@@ -14,6 +14,22 @@ Append-only operation log. Newest entries at the top.
 
 ---
 
+## [2026-04-25] ingest | 瑞士银行充值流程 — 第四次 ingest
+- Operation: 第四次 ingest，覆盖加密货币充值流程
+- Source: [[瑞士银行充值流程]]（操作流程笔记）
+- Pages created (4):
+  - 来源：[[瑞士银行充值流程]]
+  - 实体：[[SafePal]], [[OKX]]
+  - 概念：[[加密货币充值流程]]
+- Pages updated: [[index]], [[hot]], [[overview]], [[来源/_index]], [[实体/_index]], [[概念/_index]]
+- Key insights:
+  - SafePal 钱包含瑞士银行卡功能，Bank 页签需 VPN 切到瑞士
+  - OKX 用 RMB 购买 USDC → 提币到 SafePal（Arbitrum One）→ 转入瑞士银行卡
+  - ⚠️ 仅支持 USDC（Arbitrum One），网络选错会丢币
+- Milestone: 知识库增长至 26 页。
+
+---
+
 ## [2026-04-25] merge | 来源页合并（3 → 1）+ 源文件合并（2 → 1）
 - Operation: 合并分散的来源页面和源文件
 - 源文件侧：`.源文档/文字稿/学习笔记.md` + `学习笔记20260424.md` → 一个 `学习笔记.md`

@@ -33,6 +33,8 @@ status: evergreen
 - [[OpenClaw]] — Bot 网关管理工具
 - [[Bewildcard]] — API 服务代理充值平台
 - [[GPT-Image-2]] — OpenAI 图像生成模型
+- [[SafePal]] — 加密货币钱包（含瑞士银行卡功能）
+- [[OKX]] — 加密货币交易所
 
 ## Repositories
 

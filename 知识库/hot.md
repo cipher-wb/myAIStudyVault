@@ -11,22 +11,21 @@ status: evergreen
 # Recent Context
 
 ## Last Updated
-2026-04-25 — 合并完成：3 个来源页 → 1 个 [[学习笔记]]；2 个源文件 → 1 个
+2026-04-25 — 第四次 ingest 完成（瑞士银行充值流程），知识库 26 页
 
 ## Key Recent Facts
-- **[[OpenClaw]]**：Bot 网关管理工具，支持 QQ Bot 等通道，CLI + Web Dashboard（`http://127.0.0.1:18789/`）
-- **[[Bewildcard]]**（bewildcard.com）：为中国用户提供 API 代理充值，解决信用卡限制问题
-- **[[GPT-Image-2]]**：OpenAI 图像生成模型，已通过 Bewildcard 充值并创建 `gptsapi-image-generator` skill
-- **待学习**：GPT-Image-2 API 详细调用方式 + 如何构建稳定产出特定风格图片的 skill
-- **已有知识**：[[Git]] 版本控制 / [[Next.js]] 全栈开发 / [[Vibe Coding 工具链]]（来自前两次 ingest）
+- **[[SafePal]]**：加密货币钱包 App，内置瑞士银行卡功能（Bank 页签需 VPN 切到瑞士）
+- **[[OKX]]**（okx.com）：加密货币交易所，用 RMB 购买 USDC
+- **充值路径**：RMB → OKX 购 USDC → 提币到 SafePal（Arbitrum One）→ 转入瑞士银行卡
+- **⚠️ 关键**：瑞士银行卡仅支持 **USDC（Arbitrum One）**，网络选错会丢币
+- **之前的知识**：Git / Next.js / OpenClaw / [[Bewildcard]] / [[GPT-Image-2]]
 
 ## Recent Changes
-- Ingested: [[学习笔记]]（第三次 ingest）
-- Created (实体): [[OpenClaw]], [[Bewildcard]], [[GPT-Image-2]]
-- Created (概念): [[OpenClaw 命令速查]], [[API 代充与跨境支付]]
-- Created (来源): [[学习笔记]]
+- Ingested: [[瑞士银行充值流程]]
+- Created (实体): [[SafePal]], [[OKX]]
+- Created (概念): [[加密货币充值流程]]
+- Earlier today: 合并 3 个来源页 → 1 个 [[学习笔记]]
 
 ## Active Threads
-- [[GPT-Image-2]] API 学习 — 待深入（prompt engineering、skill 构建、风格一致性）
-- `gptsapi-image-generator` skill 的优化和稳定化
-- 之前两次 ingest 的实体页（[[Next.js]], [[React]], [[Tailwind CSS]] 等）均为 seed 状态，可补充更多细节
+- [[GPT-Image-2]] API 学习 — 待深入
+- 加密货币充值流程目前是基础版，后续可能补充更多交易所/钱包/银行卡的用法

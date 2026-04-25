@@ -18,7 +18,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-25 | Total pages: 22 | Sources ingested: 1
+Last updated: 2026-04-25 | Total pages: 26 | Sources ingested: 2
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[getting-started]]
 
@@ -33,6 +33,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[getting-started]]
 - [[Next.js API Routes]] — Route Handlers、REST API、文件上传
 - [[OpenClaw 命令速查]] — OpenClaw Bot 网关 CLI 速查手册
 - [[API 代充与跨境支付]] — 中国用户使用代理平台充值海外 API 服务
+- [[加密货币充值流程]] — RMB → USDC → 瑞士银行卡的完整路径
 
 ---
 
@@ -52,12 +53,15 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[getting-started]]
 - [[OpenClaw]] — Bot 网关管理工具
 - [[Bewildcard]] — API 服务代理充值平台
 - [[GPT-Image-2]] — OpenAI 图像生成模型
+- [[SafePal]] — 加密货币钱包（含瑞士银行卡功能）
+- [[OKX]] — 加密货币交易所
 
 ---
 
 ## Sources
 
 - [[学习笔记]] — Vibe Coding 实战课 + 日常补充（Git / Next.js / OpenClaw / API 服务）
+- [[瑞士银行充值流程]] — SafePal + OKX 充值瑞士银行卡的操作流程
 
 ---
 

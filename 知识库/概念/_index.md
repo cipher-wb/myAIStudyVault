@@ -25,6 +25,9 @@ status: evergreen
 ### Infrastructure
 - [[API 代充与跨境支付]] — 中国用户使用代理平台充值海外 API
 
+### Finance
+- [[加密货币充值流程]] — RMB → USDC → 瑞士银行卡的完整路径
+
 ## 按复杂度
 
 ### Basic
