@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Log"
-updated: 2026-04-25
+updated: 2026-05-02
 tags:
   - meta
   - log
@@ -11,6 +11,23 @@ status: evergreen
 # Wiki Log
 
 Append-only operation log. Newest entries at the top.
+
+---
+
+## [2026-05-02] re-ingest | 瑞士银行充值流程 — 内容更新
+
+- Operation: 重新摄取 [[瑞士银行充值流程]]，源文件内容有更新
+- Pages updated (4):
+  - 来源：[[瑞士银行充值流程]]
+  - 实体：[[SafePal]], [[OKX]]
+  - 概念：[[加密货币充值流程]]
+- Pages refreshed: [[hot]], [[log]], [[index]]
+- Key changes detected:
+  - **VPN 目的地**：瑞士 → 马来西亚（推荐全局模式）
+  - **OKX 购买方式**：补充"C2C 买币"入口 + 支付宝支付细节
+  - **提币细节**：明确 SafePal 收款操作步骤（Coin → 收款 → 选 USDC Arbitrum One → 复制地址），约 2 分钟到账
+  - **Bank 操作**：简化为"Bank 页签 → 充值 → USDC 转 USD"
+  - **新增建议**：推荐直接买 USDC 而非 USDT（省一次转换）
 
 ---
 

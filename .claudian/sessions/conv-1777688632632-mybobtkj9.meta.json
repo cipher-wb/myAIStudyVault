@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777688632632-mybobtkj9",
+  "providerId": "claude",
+  "title": "Re-ingest 瑞士银行充值流程.md",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777688632632,
+  "updatedAt": 1777688881159,
+  "lastResponseAt": 1777688881159,
+  "sessionId": "a2cccbf0-8a73-44fe-9476-24a9c2a9b0fe",
+  "providerState": {
+    "providerSessionId": "a2cccbf0-8a73-44fe-9476-24a9c2a9b0fe"
+  },
+  "currentNote": "知识库/实体/OKX.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 114,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45056,
+    "contextWindow": 1000000,
+    "contextTokens": 45170,
+    "percentage": 5
+  }
+}
